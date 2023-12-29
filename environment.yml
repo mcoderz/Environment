@@ -1,0 +1,41 @@
+# Autor: Mauro Abner
+# Data: 21/11/23
+#
+# 1. Abra um terminal ou prompt de comando.
+# 2. Navegue até o diretório onde você salvou o arquivo YAML.
+# 3. Execute o seguinte comando para criar o ambiente conda: conda env create -f environment.yml
+# 4. Verifique se o ambiente foi criado corretamente usando: conda env list
+# 5. Ative o Ambiente Conda: conda activate data_analysis
+#
+# Ambiente conda para análise de dados e linting (pacotes não utilizados no momento)
+name: data_analysis
+channels:
+  - conda-forge  # Canal comunitário para pacotes adicionais
+  - defaults     # Canal padrão com pacotes estáveis
+dependencies:
+  - pandas       # Manipulação e análise de dados tabulares
+  - numpy        # Manipulação eficiente de arrays e matrizes multidimensionais
+  - statsmodels   # Estimação de modelos estatísticos
+  - scipy        # Funcionalidades adicionais para computação científica
+  - jupyter      # Ambiente interativo para desenvolvimento e apresentação
+  - ipykernel    # Implementação do kernel do IPython para o Jupyter
+  - scikit-learn  # Biblioteca de aprendizado de máquina
+  - matplotlib   # Criação de visualizações e gráficos
+  - seaborn      # Visualizações estatísticas atraentes
+  - pip           # Gerenciador de pacotes para Python
+  - ruff          # Ruff Linter - Linter rápido para Python
+  # plotly       # Gráficos interativos (não utilizado no momento)
+  # bokeh        # Visualizações interativas (não utilizado no momento)
+  # nltk         # Processamento de linguagem natural (não utilizado no momento)
+  # beautifulsoup4  # Análise de dados web scraping (não utilizado no momento)
+
+
+# Ver https://stackoverflow.com/a/35245610/15526336 para mais informações.
+# https://boscacci.medium.com/why-and-how-to-make-a-requirements-txt-f329c685181e
+# https://realpython.com/python-toml/
+# https://gist.github.com/njsmith/78f68204c5d969f8c8bc645ef77d4a8f
+
+
+
+
+
