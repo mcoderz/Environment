@@ -24,6 +24,7 @@ dependencies:
   - seaborn      # Visualizações estatísticas atraentes
   - pip           # Gerenciador de pacotes para Python
   - ruff          # Ruff Linter - Linter rápido para Python
+  - tabulate      # Impressão de dados tabulares em diversos formados de tabelas
   # plotly       # Gráficos interativos (não utilizado no momento)
   # bokeh        # Visualizações interativas (não utilizado no momento)
   # nltk         # Processamento de linguagem natural (não utilizado no momento)
@@ -35,6 +36,7 @@ dependencies:
 # https://realpython.com/python-toml/
 # https://gist.github.com/njsmith/78f68204c5d969f8c8bc645ef77d4a8f
 
+# https://github.com/astanin/python-tabulate
 
 
 
