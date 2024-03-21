@@ -8,7 +8,7 @@
 # 5. Ative o Ambiente Conda: conda activate data_analysis
 #
 # Ambiente conda para análise de dados e linting (pacotes não utilizados no momento)
-name: data_analysis
+name: data_science
 channels:
   - conda-forge  # Canal comunitário para pacotes adicionais
   - defaults     # Canal padrão com pacotes estáveis
@@ -25,6 +25,7 @@ dependencies:
   - pip           # Gerenciador de pacotes para Python
   - ruff          # Ruff Linter - Linter rápido para Python
   - tabulate      # Impressão de dados tabulares em diversos formados de tabelas
+  - icecream      # Ferramenta para debugging
   # plotly       # Gráficos interativos (não utilizado no momento)
   # bokeh        # Visualizações interativas (não utilizado no momento)
   # nltk         # Processamento de linguagem natural (não utilizado no momento)
@@ -38,6 +39,7 @@ dependencies:
 
 # https://github.com/astanin/python-tabulate
 
-
+# https://github.com/gruns/icecream
+# https://github.com/conda-forge/icecream-feedstock
 
 
