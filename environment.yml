@@ -27,6 +27,7 @@ dependencies:
   - tabulate      # Impressão de dados tabulares em diversos formados de tabelas
   - openpyxl      # biblioteca Python para criar, editar e manipular arquivos Excel no formato .xlsx e .xlsm, incluindo células, fórmulas, gráficos e estilos
   - icecream      # Ferramenta para debugging
+  - fastparquet   # fastparquet é uma biblioteca Python leve e eficiente para ler e escrever arquivos Parquet, focada na simplicidade e rapidez, especialmente em operações com arquivos de tamanho pequeno a médio.
   #- plotly       # Gráficos interativos (não utilizado no momento)
   #- bokeh        # Visualizações interativas (não utilizado no momento)
   #- nltk         # Processamento de linguagem natural (não utilizado no momento)
