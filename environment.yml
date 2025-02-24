@@ -23,6 +23,7 @@ dependencies:
   - matplotlib   # Criação de visualizações e gráficos
   - seaborn      # Visualizações estatísticas atraentes
   - pip           # Gerenciador de pacotes para Python
+  - pydantic    # Pydantic é uma biblioteca Python para validação e serialização de dados baseada em tipos do Python, utilizando dataclasses e typing.  
   - ruff          # Ruff Linter - Linter rápido para Python
   - tabulate      # Impressão de dados tabulares em diversos formados de tabelas
   - openpyxl      # biblioteca Python para criar, editar e manipular arquivos Excel no formato .xlsx e .xlsm, incluindo células, fórmulas, gráficos e estilos
@@ -44,4 +45,4 @@ dependencies:
 # https://github.com/gruns/icecream
 # https://github.com/conda-forge/icecream-feedstock
 
-
+# https://docs.pydantic.dev/latest/
