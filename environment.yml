@@ -29,6 +29,9 @@ dependencies:
   - openpyxl      # biblioteca Python para criar, editar e manipular arquivos Excel no formato .xlsx e .xlsm, incluindo células, fórmulas, gráficos e estilos
   - icecream      # Ferramenta para debugging
   - fastparquet   # fastparquet é uma biblioteca Python leve e eficiente para ler e escrever arquivos Parquet, focada na simplicidade e rapidez, especialmente em operações com arquivos de tamanho pequeno a médio.
+  - sweetviz # Sweetviz é uma biblioteca Python de código aberto que gera visualizações atraentes e de alta densidade para iniciar a EDA (Análise Exploratória de Dados) com apenas duas linhas de código. A saída é um aplicativo HTML totalmente independente.
+  - ydata-profiling # O objetivo principal é fornecer uma experiência de Análise Exploratória de Dados (EDA) unidirecional em uma solução consistente e rápida. Como os pandas df.describe()função tão útil, ydata-profiling, fornece uma análise estendida de um DataFrame, ao mesmo tempo que permite que a análise de dados seja exportada em diferentes formatos, como html e json.
+  - pygwalker # O PyGWalker pode simplificar seu fluxo de trabalho de análise de dados e visualização de dados no Jupyter Notebook, transformando seu dataframe do pandas em uma interface de usuário interativa para exploração visual.
   #- plotly       # Gráficos interativos (não utilizado no momento)
   #- bokeh        # Visualizações interativas (não utilizado no momento)
   #- nltk         # Processamento de linguagem natural (não utilizado no momento)
